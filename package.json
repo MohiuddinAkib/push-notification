@@ -1,0 +1,21 @@
+{
+  "name": "service_worker_push_notification",
+  "version": "1.0.0",
+  "description": "Web push notification with service worker",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "service worker",
+    "push notification"
+  ],
+  "author": "Md Mohiuddin Akib <mohiuddinmostafakamal@gmail.com> (https://akibbd.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "web-push": "^3.3.3"
+  }
+}
